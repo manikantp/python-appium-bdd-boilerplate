@@ -5,7 +5,7 @@ Feature: Reddit demo
   So that I can talk about EA
 
   Background:
-    Given the app is running
+    Given the app is installed
 
   Scenario: The time
     Given I open the app

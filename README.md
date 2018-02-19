@@ -16,17 +16,17 @@ For Appium to fully work on Android, you'll need:
 
 
 To setup your environment to run the tests do:
-1. `bash setup.sh`
+1. `./setup.sh`
 
 To run the tests execute:
-1. `cd tests`
 1. `behave`
 
 PyCharm:
-1. Remember to add the boilerenv interpreter to your PyCharm
+1. Remember to add the venv interpreter to your PyCharm
 
 Saucelabs:
 1. In case you push your access key, regenerate it (and don't push) with:  
-    `curl -X POST -u USERNAME:ACCESS_KEY https://saucelabs.com/rest/v1/users/USERNAME/accesskey/change`
+    ```curl -X POST -u USERNAME:ACCESS_KEY https://saucelabs.com/rest/v1/users/USERNAME/accesskey/change```
 
-Appium Capabilities: https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/caps.md
+More about Appium:  
+1. [Capabilities](https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/caps.md)
